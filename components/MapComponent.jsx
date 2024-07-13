@@ -34,7 +34,7 @@ const MapComponent = ({ location }) => {
         console.log(err);
       }
     };
-    // getLocation();
+    getLocation();
   }, []);
 
   const redOptions = { color: "blue" };
