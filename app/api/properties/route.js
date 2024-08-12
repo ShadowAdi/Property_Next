@@ -16,6 +16,7 @@ export const GET = async (request) => {
       total,
       properties,
     };
+    console.log(properties)
     return new Response(JSON.stringify(results), { status: 200 });
   } catch (error) {
     console.log(error);
